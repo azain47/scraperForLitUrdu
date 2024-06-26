@@ -28,7 +28,6 @@ Putting it here just to make sure I can create a bookmarklet whenever I need usi
 **CopyRekhtaLinks:**
 ```
 var all = document.querySelectorAll('div.contentListBody.contentLoadMoreSection.rt_miriyaatSec.rt_manageColumn > div');
-console.log(arr);
 var arr = [];
 all.forEach(div => {
 var a =div.querySelector('a:nth-child(2)');
